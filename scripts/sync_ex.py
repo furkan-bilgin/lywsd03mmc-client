@@ -1,6 +1,6 @@
 from lywsd03mmc.lywsd03mmc_client import Lywsd03mmcClientSyncContext, Lywsd03mmcData
 
-MAC_ADDRESS_OR_UUID = '70C40C24-C60B-BB9D-D737-9895C5DA52F3'
+MAC_ADDRESS_OR_UUID = 'A4:C1:38:AE:DB:73'
 
 while True:
     try:
