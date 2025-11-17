@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lywsd03mmc-client"
+version = "0.1.0"
+description = "A Python client for the Xiaomi LYWSD03MMC temperature and humidity sensor."
+readme = "Readme.md"
+requires-python = ">=3.8, <3.13"
+dependencies = ["bleak==0.21.1", "async-to-sync==0.2.3"]
